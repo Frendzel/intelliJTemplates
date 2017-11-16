@@ -8,9 +8,8 @@ Object $paramName){
   return true;
   }
   
-  #addClassInstance()
-  
   #addInstanceOfToText()
+  #addClassInstance()
 
   return new org.apache.commons.lang3.builder.EqualsBuilder()
   #if($superHasEquals)
